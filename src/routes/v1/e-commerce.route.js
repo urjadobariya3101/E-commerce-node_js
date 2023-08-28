@@ -7,7 +7,7 @@ const router = express.Router();
 /* Get all list */
 router.get(
     "/all-list",
-     validate(EcommerceController.getAllList)
+     EcommerceController.getAllList
 );
 
 module.exports = router;
